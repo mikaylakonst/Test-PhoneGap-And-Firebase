@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+    <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>DATABASE</h1>
+    <h2>Store Info</h2>
+    <p>Key:</p>
+    <input type="text" id="key"></input>
+    <br>
+    <p>Value:</p>
+    <input type="text" id="value"></input>
+    <br><br>
+    <button onclick="storeData()">Store Data!</button>
+    <br>
+    <h2>Load Info</h2>
+    <p>Key:</p>
+    <input type="text" id="loadKey"></input>
+    <br><br>
+    <button onclick="loadData()">Load Data!</button>
+    <br>
+    <p id="loadValue">Value will display here</p>
+    <h1>STORAGE</h1>
+    <h2>Upload File</h2>
+    <p>Username:</p>
+    <input type="text" id="username"></input>
+    <br>
+    <p>Profile pic:</p>
+    <input type="file" id="file"></input>
+    <br>
+    <h2>Download File</h2>
+    <p>Username:</p>
+    <input type="text" id="loadUsername"></input>
+    <br><br>
+    <button onclick="downloadFile()">Download File!</button>
+    <br><br>
+    <img id="myimg"></img>
+  </body>
+</html>
